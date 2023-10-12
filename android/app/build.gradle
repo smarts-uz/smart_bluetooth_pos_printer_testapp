@@ -45,8 +45,8 @@ android {
         applicationId "uz.smarts.smart_bluetooth_pos_printer_testapp"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
-        minSdkVersion flutter.minSdkVersion
-        targetSdkVersion flutter.targetSdkVersion
+        minSdkVersion 21
+        targetSdkVersion 31
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
